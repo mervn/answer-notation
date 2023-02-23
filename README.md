@@ -8,9 +8,7 @@
   SPDX-FileComment: Overview of project details.
 -->
 
-# A Noted-Answer
-
-> *Repository-name derived from (a) (n)oted (-) (answer).*
+# An-swer
 
 **This format serves to be a portable, non-proprietary, way to share concise notes
 on a topic.**
@@ -64,22 +62,37 @@ ___
 
 ## Format Breakdown
 
-`title` : Name of the work, include edition numbers. Primarily for recognition
-in one's personal collection.
+`title` : Name of the work, include edition numbers.
 
-`identification` : Standardized identification tags, include **all** applicable IDs (i.e. isbn of ebook **and** hardcover).
+> Intended for personal-recognition in a local-collection.
 
-`dateOfAccess` : The date the work was acquired (i.e. bought, downloaded, recorded, etc.). For dynamic-content (i.e. URL, etc.), use the last date-of-interaction.
+`identification` : Standardized identification tags, include **all** applicable IDs.
 
-`section` : The location, denoted by headers, in the work relevant to the upcoming question. If the target-location is inside of another location, use a '.' (i.e. chapter12-plastic.bottle.cap).
+> A book may have more than one ISBN. Include all of them, unless there's a reason not to.
 
-`question` : Question to be answered, **this is the focal-point of the note**. In this format, ("why"/"how") questions tend to be most valuable.
+`dateOfAccess` : The date the work was acquired (i.e. bought, downloaded, recorded, etc.). 
 
-`definition` : Meaning of key-term(s) in the question, terms should be listed in the order they appear left-to-right. The only valid values for `source` are "ad hoc" (yourself), "dictionary" (external), "glossary" (from the work).
+> For dynamic-content, like a URL, use the last date-of-interaction.
 
-`answer` : Answer to the question, broken into stages of context. The first entry should directly answer the question, with no explanation. If further explanation is needed, add one short-entry for **each** point.
+`section` : The location, denoted by headers, in the work relevant to the upcoming question.
 
-`noteFrom` : Segments from the section that led to the answer, these are effectively the notes that were taken. The only valid value is an integer; where the first line of the section is '0', and is only incremented when a colon, comma, period, or semicolon is passed.
+> For consistent results, all section-names should follow [this][MDLINK] format. If the target-location is inside of another location, use a period - for example, "chapter12.bottle.cap".
+
+`question` : Question to be answered, **this is the focal-point of the note**.
+
+> "Why", and "How", questions tend to be most valuable.
+
+`definition` : Meaning of key-term(s) in the question, terms should be listed in the order they appear left-to-right.
+
+>The only valid values for `source` are "ad hoc" (yourself), "dictionary" (external), "glossary" (from the work).
+
+`answer` : Answer to the question, broken into stages of context. 
+
+> The first entry should directly answer the question, with no explanation. If further explanation is needed, add one short-entry for **each** point.
+
+`noteFrom` : Segments from the section that led to the answer, these are effectively the notes that were taken.
+
+> The only valid value is an integer; where the first-line of the section is '0', and is only incremented when a colon, comma, period, or semicolon is passed.
 
 ## Uses
 
@@ -116,3 +129,7 @@ SPDX-FileCopyrightText: 2023 Mervin G.
 > search for `SPDX-License-Identifier` with(in) file.
 > <br>
 > Every license present in this project is listed [here](LICENSES).
+
+<!-- Links -->
+
+[MDLINK]: https://docs.gitlab.com/ee/user/markdown.html#header-ids-and-links
