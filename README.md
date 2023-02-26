@@ -8,9 +8,9 @@
   SPDX-FileComment: Overview of project details.
 -->
 
-# An-swer
+# Answer Notation
 
-**This format serves to be a portable, non-proprietary, way to share concise notes
+**This notation serves to be a portable, non-proprietary, way to share concise notes
 on a topic.**
 
 ```json
@@ -63,7 +63,9 @@ on a topic.**
 }
 ```
 
-## Format Breakdown
+___
+
+## Variables
 
 `title` : Name, with edition-number, of the work.
 
