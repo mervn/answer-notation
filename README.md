@@ -62,9 +62,12 @@ ___
 
 ## Format Breakdown
 
-`title` : Name of the work; include edition-number.
+`title` : Name, with edition-number, of the work.
 
-`identification` : All ***applicable*** standard-identification tags.
+`identification` : All ***applicable*** identification.
+
++ `tag` : The name, or acronym, of the identification-standard.
++ `token` : The assigned identification-value.
 
 `dateOfAccess` : The date (yyyy.mm.dd) the work was accessed.
 
