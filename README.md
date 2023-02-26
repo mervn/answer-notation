@@ -30,7 +30,7 @@ ___
 	],
 	"dateOfAccess" : "yyyy.mm.dd",
 	"section" : "chapter.sub-chapter.subsection.etc",
-	"question" : "question this note will answer (i.e. Why is the sky blue?)",
+	"question" : "Why is the sky blue?",
 	"definition" :
 	[
 		{
@@ -78,13 +78,13 @@ ___
 
 > For consistent results, all section-names should follow [this][MDLINK] format. If the target-location is inside of another location, use a period - for example, "chapter12.bottle.cap".
 
-`question` : Question to be answered, **this is the focal-point of the note**.
+`question` : The focus of `answer`, and the seed of `definition` member(s).
 
 > "Why", and "How", questions tend to be most valuable.
 
 `definition` : Meaning of key-term(s) in the question, terms should be listed in the order they appear left-to-right.
 
->The only valid values for `source` are "ad hoc" (yourself), "dictionary" (external), "glossary" (from the work).
+> The only valid values for `source` are "ad hoc" (yourself), "dictionary" (external), "glossary" (from the work).
 
 `answer` : Answer to the question, broken into stages of context. 
 
