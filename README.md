@@ -64,12 +64,12 @@ ___
 
 `title` : Name, with edition-number, of the work.
 
-`identification` : All ***applicable*** identification.
+`identification` : All ***applicable*** identification of `title`.
 
 + `tag` : The name, or acronym, of the identification-standard.
 + `token` : The assigned identification-value.
 
-`dateOfAccess` : The date (yyyy.mm.dd) the work was accessed.
+`dateOfAccess` : The date (yyyy.mm.dd) `title` was accessed.
 
 `question` : The focus of `answer`, and the seed of `definition` member(s).
 
