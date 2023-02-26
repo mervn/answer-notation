@@ -26,7 +26,7 @@ ___
 		"isbn",
 		"ismn",
 		"url",
-		"etc."
+		"etc"
 	],
 	"dateOfAccess" : "yyyy.mm.dd",
 	"section" : "chapter.sub-chapter.subsection.etc",
@@ -62,17 +62,11 @@ ___
 
 ## Format Breakdown
 
-`title` : Name of the work, include edition numbers.
-
-> Intended for personal-recognition in a local-collection.
+`title` : Name of the work, including edition numbers.
 
 `identification` : Standardized identification tags, include **all** applicable IDs.
 
-> A book may have more than one ISBN. Include all of them, unless there's a reason not to.
-
-`dateOfAccess` : The date the work was acquired (i.e. bought, downloaded, recorded, etc.). 
-
-> For dynamic-content, like a URL, use the last date-of-interaction.
+`dateOfAccess` : The date the work was accessed (i.e. bought, downloaded, recorded, etc).
 
 `section` : The location, denoted by headers, in the work relevant to the upcoming question.
 
@@ -80,15 +74,9 @@ ___
 
 `question` : The focus of `answer`, and the seed of `definition` member(s).
 
-> "Why", and "How", questions tend to be most valuable.
-
 `definition` : Meaning of key-term(s) in the question, terms should be listed in the order they appear left-to-right.
 
-> The only valid values for `source` are "ad hoc" (yourself), "dictionary" (external), "glossary" (from the work).
-
-`answer` : Answer to the question, broken into stages of context. 
-
-> The first entry should directly answer the question, with no explanation. If further explanation is needed, add one short-entry for **each** point.
+`answer` : Answer to the question, broken into stages of context.
 
 `noteFrom` : Segments from the section that led to the answer, these are effectively the notes that were taken.
 
