@@ -62,23 +62,23 @@ ___
 
 ## Format Breakdown
 
-`title` : Name of the work, including edition numbers.
+`title` : Name of the work; include edition-number.
 
-`identification` : Standardized identification tags, include **all** applicable IDs.
+`identification` : All ***applicable*** standard-identification tags.
 
-`dateOfAccess` : The date the work was accessed (i.e. bought, downloaded, recorded, etc).
+`dateOfAccess` : The date (yyyy.mm.dd) the work was accessed.
 
-`section` : The location, denoted by headers, in the work relevant to the upcoming question.
+`section` : The index of the relevant header. This is the data-source of `noteFrom`.
 
 > For consistent results, all section-names should follow [this][MDLINK] format. If the target-location is inside of another location, use a period - for example, "chapter12.bottle.cap".
 
 `question` : The focus of `answer`, and the seed of `definition` member(s).
 
-`definition` : Meaning of key-term(s) in the question, terms should be listed in the order they appear left-to-right.
+`definition` : Define special-term(s) from `question`, from left-to-right.
 
-`answer` : Answer to the question, broken into stages of context.
+`answer` : The solution based-on `question`, and the seed of `noteFrom` member(s).
 
-`noteFrom` : Segments from the section that led to the answer, these are effectively the notes that were taken.
+`noteFrom` : Snippet(s) of the `section` that contributed to `answer`.
 
 > The only valid value is an integer; where the first-line of the section is '0', and is only incremented when a colon, comma, period, or semicolon is passed.
 
