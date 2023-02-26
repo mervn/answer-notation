@@ -75,6 +75,10 @@ ___
 
 `definition` : Define special-term(s) from `question`, from left-to-right.
 
++ `term` : The name of the concept being defined.
++ `hint` : Quoted, or paraphrased, version of the definition.
++ `source` : The entity that contributed to the definition.
+
 `answer` : The solution based-on `question`, and the seed of `highlight` member(s).
 
 `highlight` : Snippet(s) of the `title` that contributed to `answer`.
