@@ -13,50 +13,53 @@
 **This format serves to be a portable, non-proprietary, way to share concise notes
 on a topic.**
 
-___
-
-## Format
-
 ```json
 {
-	"title" : "name of book, music, topic, etc",
+	"title" : "Blue Skies Only",
 	"identification" :
 	[
-		"ean",
-		"isbn",
-		"ismn",
-		"url",
-		"etc"
+		{
+			"tag" : "isbn-10",
+			"token" : "0000000000"
+		},
+		{
+			"tag" : "isbn-13",
+			"token" : "978-0000000000"
+		},
+		{
+			"tag" : "url",
+			"token" : "skycolors.edu"
+		}
 	],
-	"dateOfAccess" : "yyyy.mm.dd",
-	"section" : "chapter.sub-chapter.subsection.etc",
+	"dateOfAccess" : "2023.02.25",
 	"question" : "Why is the sky blue?",
 	"definition" :
 	[
 		{
 			"term" : "sky",
-			"definition" : "the thing you see when you look up.",
-			"source" : "ad hoc"
+			"hint" : "the thing you see when you look up.",
+			"source" : "made it up"
 		},
 		{
 			"term" : "blue",
-			"definition" : "portion of the color spectrum lying between green and violet.",
-			"source" : "dictionary"
+			"hint" : "portion of the color spectrum lying between green and violet.",
+			"source" : "merriam-webster"
 		}
 	],
-	"answer" :
+	"answer" : "Blue light is scattered more than the other colors because it travels as shorter, smaller waves.",
+	"highlight" :
 	[
-		"Blue light is scattered more than the other colors because it travels as shorter, smaller waves.",
-		"Sunlight reaches Earth's atmosphere and is scattered in all directions by all the gases and particles in the air."
-	],
-	"noteFrom" :
-	[
-		0,
-		1,
-		5,
-		10,
-		25
-	]
+		{
+			"section" : "5.1.*",
+			"significant" : "true",
+			"content" : "Sunlight reaches Earth's atmosphere and is scattered in all directions by all the gases and particles in the air"
+		},
+		{
+			"section" : "7.3.0",
+			"significant" : "false",
+			"content" : "Blue skies rock"
+		}
+	]	
 }
 ```
 
