@@ -96,14 +96,14 @@ ___
 
 ## Uses
 
-### When To Use:
+**When To Use:**
 
 + If using interactive-note formats (i.e. Cornell notes, Flashcards, etc.)
 + If note-sharing between large-groups, or over long-distances
 + If a machine-readable note-format is required
 + If revisiting notes is common-occurance
 
-### When Not To Use:
+**When Not To Use:**
 
 + If an entry for the work already exists; add to the entry instead.
 + If the project, or group, is standardizing to another note-format
