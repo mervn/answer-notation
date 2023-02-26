@@ -68,7 +68,7 @@ ___
 
 `dateOfAccess` : The date (yyyy.mm.dd) the work was accessed.
 
-`section` : The index of the relevant header. This is the data-source of `noteFrom`.
+`section` : The index of the relevant header. This is the data-source of `highlight`.
 
 > For consistent results, all section-names should follow [this][MDLINK] format. If the target-location is inside of another location, use a period - for example, "chapter12.bottle.cap".
 
@@ -76,11 +76,13 @@ ___
 
 `definition` : Define special-term(s) from `question`, from left-to-right.
 
-`answer` : The solution based-on `question`, and the seed of `noteFrom` member(s).
+`answer` : The solution based-on `question`, and the seed of `highlight` member(s).
 
-`noteFrom` : Snippet(s) of the `section` that contributed to `answer`.
+`highlight` : Snippet(s) of the `title` that contributed to `answer`.
 
-> The only valid value is an integer; where the first-line of the section is '0', and is only incremented when a colon, comma, period, or semicolon is passed.
++ `section` : The index, as ***header.fullstop.comma***, of the snippet. 
++ `significant` : True or false, is the snippet crucial to getting the solution?
++ `content` : Quoted, or paraphrased, version the snippet.
 
 ## Uses
 
