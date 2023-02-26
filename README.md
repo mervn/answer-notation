@@ -68,10 +68,6 @@ ___
 
 `dateOfAccess` : The date (yyyy.mm.dd) the work was accessed.
 
-`section` : The index of the relevant header. This is the data-source of `highlight`.
-
-> For consistent results, all section-names should follow [this][MDLINK] format. If the target-location is inside of another location, use a period - for example, "chapter12.bottle.cap".
-
 `question` : The focus of `answer`, and the seed of `definition` member(s).
 
 `definition` : Define special-term(s) from `question`, from left-to-right.
