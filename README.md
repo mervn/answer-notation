@@ -66,10 +66,9 @@ ___
 
 `signature` : Name, with edition-number, of the work.
 
-`identification` : All ***applicable*** identification of `title`.
+`auth-type` :  The name, or acronym, of the identification-standard used to verify `signature`.
 
-+ `tag` : The name, or acronym, of the identification-standard.
-+ `token` : The assigned identification-value.
+`auth-token` : The value of `auth-type`, which uniquely verifies `signature`.
 
 `dateOfAccess` : The date (yyyy.mm.dd) `title` was accessed.
 
