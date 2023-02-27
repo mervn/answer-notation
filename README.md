@@ -14,47 +14,38 @@
 
 ```json
 {
-	"title" : "Blue Skies Only",
-	"identification" :
-	[
-		{
-			"tag" : "isbn-10",
-			"token" : "0000000000"
-		},
-		{
-			"tag" : "isbn-13",
-			"token" : "978-0000000000"
-		},
-		{
-			"tag" : "url",
-			"token" : "skycolors.edu"
-		}
-	],
-	"dateOfAccess" : "2023.02.25",
 	"question" : "Why is the sky blue?",
-	"definition" :
+	"terminology" :
 	[
 		{
 			"term" : "sky",
-			"hint" : "the thing you see when you look up.",
-			"source" : "made it up"
+			"definition" : "the thing you see when you look up.",
+			"source" : null
 		},
 		{
 			"term" : "blue",
-			"hint" : "portion of the color spectrum lying between green and violet.",
+			"definition" : "portion of the color spectrum lying between green and violet.",
 			"source" : "merriam-webster"
 		}
 	],
 	"answer" : "Blue light is scattered more than the other colors because it travels as shorter, smaller waves.",
-	"highlight" :
+	"comment" :
 	[
 		{
-			"section" : "5.1.*",
-			"content" : "Sunlight reaches Earth's atmosphere and is scattered in all directions by all the gases and particles in the air"
+			"highlight" : "Sunlight reaches Earth's atmosphere and is scattered in all directions by all the gases and particles in the air",
+			"modified" : "2023.02.25",
+			"signature" : "Blue Skies",
+			"affix" : "Chapter1:Sky",
+			"authType" : "isbn-13",
+			"authToken" : "978-0000000000"
 		},
 		{
-			"section" : "7.3.0",
-			"content" : "Blue skies rock"
+			"highlight" : "Blue Skies are very nice",
+			"modified" : "2023.02.27",
+			"signature" : "Declaration Of Independence",
+			"affix" : null,
+			"authType" : null,
+			"authToken" : null
 		}
 	]	
 }
@@ -64,7 +55,7 @@ ___
 
 ## Elements
 
-`question` : The focus of `answer`, and the seed of `definition` member(s).
+`question` : The focus of `answer`, and the seed of `terminology` member(s).
 
 `terminology` : Define special-term(s) from `question`, in left-to-right order.
 
