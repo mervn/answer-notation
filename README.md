@@ -70,7 +70,7 @@ ___
 
 `auth-token` : The value of `auth-type`, which uniquely verifies `signature`.
 
-`dateOfAccess` : The date (yyyy.mm.dd) `title` was accessed.
+`modified` : The date (yyyy.mm.dd) this comment was last modified.
 
 `question` : The focus of `answer`, and the seed of `definition` member(s).
 
