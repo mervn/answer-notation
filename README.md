@@ -126,7 +126,3 @@ SPDX-FileCopyrightText: 2023 Mervin G.
 > search for `SPDX-License-Identifier` with(in) file.
 > <br>
 > Every license present in this project is listed [here](LICENSES).
-
-<!-- Links -->
-
-[MDLINK]: https://docs.gitlab.com/ee/user/markdown.html#header-ids-and-links
