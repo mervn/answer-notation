@@ -64,7 +64,7 @@ ___
 
 ## Elements
 
-`title` : Name, with edition-number, of the work.
+`signature` : Name, with edition-number, of the work.
 
 `identification` : All ***applicable*** identification of `title`.
 
