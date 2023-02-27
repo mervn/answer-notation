@@ -64,14 +64,6 @@ ___
 
 ## Elements
 
-`signature` : Name, with edition-number, of the work.
-
-`auth-type` :  The name, or acronym, of the identification-standard used to verify `signature`.
-
-`auth-token` : The value of `auth-type`, which uniquely verifies `signature`.
-
-`modified` : The date (yyyy.mm.dd) this comment was last modified.
-
 `question` : The focus of `answer`, and the seed of `definition` member(s).
 
 `terminology` : Define special-term(s) from `question`, in left-to-right order.
@@ -80,13 +72,17 @@ ___
 + `definition` : Quoted, or paraphrased, version of the definition.
 + `source` : The data-table that contributed the definition.
 
-`answer` : The solution based-on `question`, and the seed of `highlight` member(s).
+`answer` : The solution based-on `question`, and the seed of `comment` member(s).
 
-`highlight` : Snippet(s) of the `title` that contributed to `answer`.
+`comment` : Snippet(s) of information that contributed to `answer`.
 
-+ `section` : The index, as ***header.fullstop.comma***, of the snippet. 
-+ `significant` : True or false, is the snippet crucial to getting the solution?
-+ `content` : Quoted, or paraphrased, version the snippet.
++ `highlight` : Quoted, or paraphrased, version the snippet.
++ `modified` : The date (yyyy.mm.dd) `highlight` was last modified.
++ `signature` : Title, with edition-number, of `highlight` source.
++ `affix` : The location of `highlight` in `signature`, use **':'** to delimit sections.
++ `authType` :  The name, or acronym, of the identification-standard used to verify `signature`.
++ `authToken` : The value of `auth-type`, used to uniquely verify `signature`.
+
 
 ## Uses
 
