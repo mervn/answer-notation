@@ -50,12 +50,10 @@
 	[
 		{
 			"section" : "5.1.*",
-			"significant" : true,
 			"content" : "Sunlight reaches Earth's atmosphere and is scattered in all directions by all the gases and particles in the air"
 		},
 		{
 			"section" : "7.3.0",
-			"significant" : false,
 			"content" : "Blue skies rock"
 		}
 	]	
