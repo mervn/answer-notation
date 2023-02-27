@@ -77,11 +77,11 @@ ___
 
 `question` : The focus of `answer`, and the seed of `definition` member(s).
 
-`definition` : Define special-term(s) from `question`, from left-to-right.
+`terminology` : Define special-term(s) from `question`, in left-to-right order.
 
 + `term` : The name of the concept being defined.
-+ `hint` : Quoted, or paraphrased, version of the definition.
-+ `source` : The entity that contributed to the definition.
++ `definition` : Quoted, or paraphrased, version of the definition.
++ `source` : The data-table that contributed the definition.
 
 `answer` : The solution based-on `question`, and the seed of `highlight` member(s).
 
