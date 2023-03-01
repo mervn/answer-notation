@@ -33,19 +33,19 @@
 	[
 		{
 			"what" : "Sunlight reaches Earth's atmosphere and is scattered in all directions by all the gases and particles in the air",
-			"who" : "blue-skies",
+			"who" : "sky-is-beautiful",
 			"where" : "chapter-1.properties-of-atmosphere"
 			"when" : "2023.02.25",
 			"why" : "isbn-13",
 			"how" : "978-0000000000"
 		},
 		{
-			"what" : "I like seeing a blue sky",
-			"who" : null,
-			"where" : null,
+			"what" : "Blue skies smiling at me",
+			"who" : "blue-skies",
+			"where" : "0.12",
 			"when" : "2023.02.27",
-			"why" : null,
-			"how" : null
+			"why" : "url",
+			"how" : "https://www.youtube.com/watch?v=FXMaUnluj40"
 		}
 	]
 }
