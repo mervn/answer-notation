@@ -1,0 +1,47 @@
+{ 
+	"question" : "Why is Linux relevant?",
+	"terminology" :
+	[
+		{
+			"term" : "linux",
+			"definition" : "generic term for all open-source operating systems based on the linux kernel",
+			"source" : "Learn Linux Shell Scripting Fundamentals of Bash 4.4"
+		}
+	],
+	"answer" : "it is estimated that around 70% of all servers on the internet use a Unix or Unix-like operating system",
+	"comment" :
+	[
+		{
+			"what" : "The Linux kernel is so-called Unix-like software",
+			"who" : "Learn Linux Shell Scripting Fundamentals of Bash 4.4",
+			"where" : "chapter-1.what-is-linux",
+			"when" : "2023.03.01",
+			"why" : "isbn-13",
+			"how" : "978-1788995597"
+		},
+		{
+			"what" : "Linux operating systems are broadly used for one of two purposes: as a desktop or as a server",
+			"who" : "Learn Linux Shell Scripting Fundamentals of Bash 4.4",
+			"where" : "chapter-1.what-is-linux",
+			"when" : "2023.03.01",
+			"why" : "isbn-13",
+			"how" : "978-1788995597"
+		},
+		{
+			"what" : "As a desktop, Linux can serve as a replacement for the more commonly used Microsoft Windows or macOS",
+			"who" : "Learn Linux Shell Scripting Fundamentals of Bash 4.4",
+			"where" : "chapter-1.what-is-linux",
+			"when" : "2023.03.01",
+			"why" : "isbn-13",
+			"how" : "978-1788995597"
+		},
+		{
+			"what" : "However, most Linux usage is accounted for the server landscape",
+			"who" : "Learn Linux Shell Scripting Fundamentals of Bash 4.4",
+			"where" : "chapter-1.what-is-linux",
+			"when" : "2023.03.01",
+			"why" : "isbn-13",
+			"how" : "978-1788995597"
+		}
+	]
+}

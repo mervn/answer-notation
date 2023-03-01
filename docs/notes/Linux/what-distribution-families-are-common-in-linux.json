@@ -1,0 +1,28 @@
+{
+	"question" : "What distribution-families are common in Linux?",
+	"terminology" :
+	[
+		{
+			"term" : "distribution family",
+			"definition" : "based on a common [operating-system] ancestor, and often use the same package management tools",
+			"source" : "Learn Linux Shell Scripting Fundamentals of Bash 4.4" 
+		},
+		{
+			"term" : "linux",
+			"definition" : "generic term for all open-source operating systems based on the linux kernel",
+			"source" : "Learn Linux Shell Scripting Fundamentals of Bash 4.4"
+		}
+	],
+	"answer" : "Debian (i.e. Ubuntu), Red Hat (i.e. Fedora), SUSE, Gentoo, and Arch",
+	"comment" :
+	[
+		{
+			"what" : "Most Linux operating systems fall within distribution families",
+			"who" : "Learn Linux Shell Scripting Fundamentals of Bash 4.4",
+			"where" : "chapter-1.what-is-linux",
+			"when" : "2023.03.01",
+			"why" : "isbn-13",
+			"how" : "978-1788995597"
+		}
+	]
+}

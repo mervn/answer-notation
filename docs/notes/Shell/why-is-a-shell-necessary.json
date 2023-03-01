@@ -1,0 +1,31 @@
+{
+	"question" : "Why is a shell necessary?",
+	"terminology" :
+	[
+		{
+			"term" : "shell",
+			"definition" : "a user interface; allows the user to interact with the [kernel] system",
+			"source" : "Learn Linux Shell Scripting Fundamentals of Bash 4.4"
+		}
+	],
+	"answer" : "a system that does not offer interaction would be hard to justify, not too mention hard to use",
+	"comment" :
+	[
+		{
+			"what" : "an example of interaction is, giving the command to delete a file (either with a CLI or GUI) which removes the bytes from the disk",
+			"who" : "Learn Linux Shell Scripting Fundamentals of Bash 4.4",
+			"where" : "chapter-1.what-is-bash",
+			"when" : "2023.03.01",
+			"why" : "isbn-13",
+			"how" : "978-1788995597"
+		},
+		{
+			"what" : "it can be seen as a shell around the kernel, meaning that it can be either a CLI or a GUI",
+			"who" : "Learn Linux Shell Scripting Fundamentals of Bash 4.4",
+			"where" : "chapter-1.what-is-bash",
+			"when" : "2023.03.01",
+			"why" : "isbn-13",
+			"how" : "978-1788995597"
+		}
+	]
+}
