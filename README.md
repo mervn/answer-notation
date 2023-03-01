@@ -53,7 +53,7 @@
 
 ___
 
-## Elements
+## Composition
 
 `question` : The problem to be solved, and the seed of `terminology` member(s).
 
