@@ -59,9 +59,9 @@ ___
 
 `terminology` : Define special-term(s) from `question`, in left-to-right order.
 
-+ `term` : The name of the concept being defined.
-+ `definition` : Quoted, or paraphrased, version of the definition.
-+ `source` : The data-table that contributed the definition.
++ `term` : The word, or phrase.
++ `definition` : Quoted, or paraphrased, version of `term` meaning.
++ `source` : Title of data-table that contained `definition`.
 
 `answer` : The solution based-on `question`, and the seed of `comment` member(s).
 
