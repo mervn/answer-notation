@@ -47,7 +47,8 @@
 			"why" : "url",
 			"how" : "https://www.youtube.com/watch?v=FXMaUnluj40"
 		}
-	]
+	],
+	"group" : "notes-from-meteorology-class-1"
 }
 ```
 
@@ -74,6 +75,7 @@ ___
 + `why` :  The name, or acronym, of the identification-standard used to verify `what`.
 + `how` : The actualized version of `why`, used to uniquely verify `what`.
 
+`group` : The semantic-origin of the `question`.
 
 ## Uses
 
