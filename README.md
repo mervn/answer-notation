@@ -67,7 +67,7 @@ ___
 
 `comment` : Snippet(s) of information that contributed to `answer`.
 
-+ `what` : Quoted, or paraphrased, version the snippet.
++ `what` : Quoted, or paraphrased, version of the snippet.
 + `who` : Title, with edition-number, of the work that contained `what`.
 + `where` : The location of `what` in `who`, with **'.'** used to narrow scope.
 + `when` : The date (yyyy.mm.dd) `what` was last modified.
