@@ -1,0 +1,36 @@
+{
+	"question" : "How are GNU and Linux related?",
+	"terminology" :
+	[
+		{
+			"term" : "gnu",
+			"definition" : "a collection of free software; the name is a recursive acronym - GNU's Not Unix!",
+			"source" : "Learn Linux Shell Scripting Fundamentals of Bash 4.4"
+		},
+		{
+			"term" : "linux",
+			"definition" : "generic term for all open-source operating systems based on the linux kernel",
+			"source" : "Learn Linux Shell Scripting Fundamentals of Bash 4.4"
+		}
+	],
+	"answer" : "most Linux operating systems rely heavily on GNU project utilities",
+	"comment" :
+	[
+		{
+			"what" : "for example, BASH is a GNU program",
+			"who" : "Learn Linux Shell Scripting Fundamentals of Bash 4.4",
+			"where" : "chapter-1.what-is-linux",
+			"when" : "2023.03.01",
+			"why" : "isbn-13",
+			"how" : "978-1788995597"
+		},
+		{
+			"what" : "because of this, Linux operating systems are referred to by some as GNU/Linux",
+			"who" : "Learn Linux Shell Scripting Fundamentals of Bash 4.4",
+			"where" : "chapter-1.what-is-linux",
+			"when" : "2023.03.01",
+			"why" : "isbn-13",
+			"how" : "978-1788995597"
+		}
+	]
+}

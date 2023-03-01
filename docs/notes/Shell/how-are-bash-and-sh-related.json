@@ -1,0 +1,28 @@
+{
+	"question" : "How are bash and sh related?",
+	"terminology" :
+	[
+		{
+			"term" : "bash",
+			"definition" : "a user interface; acronym for Bourne-Again SHell",
+			"source" : null
+		},
+		{
+			"term" : "sh",
+			"definition" : "a user interface; acronym for bourne SHell",
+			"source" : null
+		}
+	],
+	"answer" : "many of bash's design-choices, principles, and standards were derived from sh",
+	"comment" :
+	[
+		{
+			"what" : "bash is based-on sh",
+			"who" : "Learn Linux Shell Scripting Fundamentals of Bash 4.4",
+			"where" : "chapter-1.what-is-bash",
+			"when" : "2023.03.01",
+			"why" : "isbn-13",
+			"how" : "978-1788995597"
+		}
+	]
+}
