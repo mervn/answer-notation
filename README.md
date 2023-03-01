@@ -32,22 +32,22 @@
 	"comment" :
 	[
 		{
-			"highlight" : "Sunlight reaches Earth's atmosphere and is scattered in all directions by all the gases and particles in the air",
-			"modified" : "2023.02.25",
-			"signature" : "Blue Skies",
-			"affix" : "Chapter1:Sky",
-			"authType" : "isbn-13",
-			"authToken" : "978-0000000000"
+			"what" : "Sunlight reaches Earth's atmosphere and is scattered in all directions by all the gases and particles in the air",
+			"who" : "blue-skies",
+			"where" : "chapter-1.properties-of-atmosphere"
+			"when" : "2023.02.25",
+			"why" : "isbn-13",
+			"how" : "978-0000000000"
 		},
 		{
-			"highlight" : "Blue Skies are very nice",
-			"modified" : "2023.02.27",
-			"signature" : "Declaration Of Independence",
-			"affix" : null,
-			"authType" : null,
-			"authToken" : null
+			"what" : "I like seeing a blue sky",
+			"who" : null,
+			"where" : null,
+			"when" : "2023.02.27",
+			"why" : null,
+			"how" : null
 		}
-	]	
+	]
 }
 ```
 
@@ -67,12 +67,12 @@ ___
 
 `comment` : Snippet(s) of information that contributed to `answer`.
 
-+ `highlight` : Quoted, or paraphrased, version the snippet.
-+ `modified` : The date (yyyy.mm.dd) `highlight` was last modified.
-+ `signature` : Title, with edition-number, of `highlight` source.
-+ `affix` : The location of `highlight` in `signature`, use **':'** to delimit sections.
-+ `authType` :  The name, or acronym, of the identification-standard used to verify `signature`.
-+ `authToken` : The value of `auth-type`, used to uniquely verify `signature`.
++ `what` : Quoted, or paraphrased, version the snippet.
++ `who` : Title, with edition-number, of the work that contained `what`.
++ `where` : The location of `what` in `who`, with **'.'** used to narrow scope.
++ `when` : The date (yyyy.mm.dd) `what` was last modified.
++ `why` :  The name, or acronym, of the identification-standard used to verify `what`.
++ `how` : The actualized version of `why`, used to uniquely verify `what`.
 
 
 ## Uses
