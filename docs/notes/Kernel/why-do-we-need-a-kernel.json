@@ -1,0 +1,31 @@
+{
+	"question" : "Why do we need a kernel?",
+	"terminology" :
+	[
+		{
+			"term" : "kernel",
+			"definition" : "piece of software that is designed to act as an intermediate layer between low-level hardware (such as the processor, memory, and input/output devices) and high-level software, such as an operating system",
+			"source" : "Learn Linux Shell Scripting Fundamentals of Bash 4.4"
+		}
+	],
+	"answer" : "it handles a lot of low-level operations on many types of hardware",
+	"comment" :
+	[
+		{
+			"what" : "the operating-system uses the abstraction provided by the kernel",
+			"who" : "Learn Linux Shell Scripting Fundamentals of Bash 4.4",
+			"where" : "chapter-1.what-is-linux",
+			"when" : "2023.03.01",
+			"why" : "isbn-13",
+			"how" : "978-1788995597"
+		},
+		{
+			"what" : "operating-system developers can spend their time making an experience for their users, instead of worrying about how data is going to be written to storage",
+			"who" : "Learn Linux Shell Scripting Fundamentals of Bash 4.4",
+			"where" : "chapter-1.what-is-linux",
+			"when" : "2023.03.01",
+			"why" : "isbn-13",
+			"how" : "978-1788995597"
+		}
+	]
+}
