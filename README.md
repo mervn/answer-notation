@@ -55,7 +55,7 @@ ___
 
 ## Elements
 
-`question` : The focus of `answer`, and the seed of `terminology` member(s).
+`question` : The problem to be solved, and the seed of `terminology` member(s).
 
 `terminology` : Define special-term(s) from `question`, in left-to-right order.
 
