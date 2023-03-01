@@ -57,7 +57,7 @@ ___
 
 `question` : The problem to be solved, and the seed of `terminology` member(s).
 
-`terminology` : Define special-term(s) from `question`, in left-to-right order.
+`terminology` : Special-term(s) from `question` defined, in left-to-right order.
 
 + `term` : The word, or phrase.
 + `definition` : Quoted, or paraphrased, version of `term` meaning.
