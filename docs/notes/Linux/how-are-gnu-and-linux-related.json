@@ -32,5 +32,21 @@
 			"why" : "isbn-13",
 			"how" : "978-1788995597"
 		}
+	],
+	"group" : "linux-shell-scripting-chapter-1",
+	"subgroup" :
+	[
+		{
+			"tag" : "gnu",
+			"hint" : "Searching for association with linux"
+		},
+		{
+			"tag" : "linux",
+			"hint" : "Searching for association with gnu"
+		},
+		{
+			"tag" : "relationship",
+			"hint" : "Explains the association between gnu and linux"
+		}
 	]
 }

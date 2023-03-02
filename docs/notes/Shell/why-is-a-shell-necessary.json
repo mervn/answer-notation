@@ -27,5 +27,17 @@
 			"why" : "isbn-13",
 			"how" : "978-1788995597"
 		}
+	],
+	"group" : "linux-shell-scripting-chapter-1",
+	"subgroup" :
+	[
+		{
+			"tag" : "shell",
+			"hint" : "The focus of the question"
+		},
+		{
+			"tag" : "mission",
+			"hint" : "Explains the purpose of a shell"
+		}
 	]
 }
