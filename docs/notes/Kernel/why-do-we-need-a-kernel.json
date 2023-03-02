@@ -27,5 +27,21 @@
 			"why" : "isbn-13",
 			"how" : "978-1788995597"
 		}
+	],
+	"group" : "linux-shell-scripting-chapter-1",
+	"subgroup" :
+	[
+		{
+			"tag" : "kernel",
+			"hint" : "The focus of the question"
+		},
+		{
+			"tag" : "computer",
+			"hint" : "Kernels are an essential component of modern computers"
+		},
+		{
+			"tag" : "mission",
+			"hint" : "Explains the purpose of a kernel"
+		}
 	]
 }

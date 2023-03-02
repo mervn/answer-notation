@@ -47,6 +47,26 @@
 			"why" : "url",
 			"how" : "https://www.youtube.com/watch?v=FXMaUnluj40"
 		}
+	],
+	"group" : "notes-from-meteorology-class-1",
+	"subgroup" :
+	[
+		{
+			"tag" : "atmosphere",
+			"hint" : "This scope of the sky dicussed"
+		},
+		{
+			"tag" : "blue-color",
+			"hint" : "This is a by-product of this process"
+		},
+		{
+			"tag" : "light",
+			"hint" : "Is interacted with to produce color"
+		},
+		{
+			"tag" : "sky",
+			"hint" : "The color of this is discussed"
+		}
 	]
 }
 ```
@@ -74,6 +94,12 @@ ___
 + `why` :  The name, or acronym, of the identification-standard used to verify `what`.
 + `how` : The actualized version of `why`, used to uniquely verify `what`.
 
+`group` : The semantic-origin of the `question`, and the seed of `subgroup` member(s).
+
+`subgroup` : Semantic-collection(s) the `question` is included in, excluding `group`.
+
++ `tag` : The word, or phrase, represented by the collection.
++ `hint` : The indication, used to validate `tag`.
 
 ## Uses
 

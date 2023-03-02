@@ -24,5 +24,21 @@
 			"why" : "isbn-13",
 			"how" : "978-1788995597"
 		}
+	],
+	"group" : "linux-shell-scripting-chapter-1",
+	"subgroup" :
+	[
+		{
+			"tag" : "distribution",
+			"hint" : "Each flavor of the operating-system has slightly different traits"
+		},
+		{
+			"tag" : "family",
+			"hint" : "The software all derive from a common ancestor"
+		},
+		{
+			"tag" : "linux",
+			"hint" : "The operating-system in question"
+		}
 	]
 }

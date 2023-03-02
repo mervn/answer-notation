@@ -24,5 +24,21 @@
 			"why" : "isbn-13",
 			"how" : "978-1788995597"
 		}
+	],
+	"group" : "linux-shell-scripting-chapter-1",
+	"subgroup" :
+	[
+		{
+			"tag" : "bash",
+			"hint" : "Searching for association with sh"
+		},
+		{
+			"tag" : "bourne-sh",
+			"hint" : "The specific iteration of sh being discussed"
+		},
+		{
+			"tag" : "shell",
+			"hint" : "The type of program being compared"
+		}
 	]
 }
