@@ -107,15 +107,15 @@ ___
 
 **When To Use:**
 
-+ If using interactive-note formats (i.e. Cornell notes, Flashcards, etc.)
++ If using interactive notes (i.e. Cornell notes, Flashcards, etc.)
 + If note-sharing between large-groups, or over long-distances
-+ If a machine-readable note-format is required
++ If a machine-readable notation is required
 + If revisiting notes is common-occurance
 
 **When Not To Use:**
 
 + If an entry for the work already exists; add to the entry instead.
-+ If the project, or group, is standardizing to another note-format
++ If the project, or group, is standardizing to another notation
 + If "skimming" the work
 + If the work is an instruction, or syntax, manual
 
