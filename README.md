@@ -114,9 +114,9 @@ ___
 
 **When Not To Use:**
 
-+ If an entry for the work already exists; add to the entry instead.
++ If the note is short-lived (i.e. bookmarks, reminders, etc.)
++ If most fields of the notation cannot reasonably be given values
 + If the project, or group, is standardizing to another notation
-+ If "skimming" the work
 + If the work is an instruction, or syntax, manual
 
 ___
