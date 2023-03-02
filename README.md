@@ -71,6 +71,8 @@
 }
 ```
 
+> More examples can be found [here](docs/notes).
+
 ___
 
 ## Composition
